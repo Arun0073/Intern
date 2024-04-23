@@ -1,7 +1,6 @@
 import React from "react";
 import "./Gif.css";
 import plus from "../assets/plus.png";
-import { motion } from "framer-motion";
 
 const Gif = () => {
   return (
@@ -14,11 +13,10 @@ const Gif = () => {
       </div>
       <hr />
       <div className="circle-container">
-        <div className="circle-1">
-          <div className="circle-2">
-            <p>Welcome!!</p>
-          </div>
+        <div className="circle">
         </div>
+        <p>Welcome!!</p>
+
       </div>
       <div className="clickables">
         <button className="btn-1">
